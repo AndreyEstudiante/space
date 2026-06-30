@@ -76,7 +76,7 @@ if (chartContainer) {
         wrapper.className = 'launches-bar-wrapper';
         
         // Вычисляем высоту в процентах относительно максимума (например, 55 будет 100%)
-        const heightPercent = (item.count / maxCount) * 105;
+        const heightPercent = (item.count / maxCount) * 100;
 
         wrapper.innerHTML = `
     <div class="launches-count">${item.count}</div>
